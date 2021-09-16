@@ -1,14 +1,15 @@
-.color-pink{
-    background-color: #FFF3F7;
+.main-color{
+    background-color: #C5CFEB;
 }
-.color-gray{
-    background-color: #CECECE;
+.second-color{
+    background-color: #8B9CD4;
 }
-
+.button-color{
+    background-color: #A7B5D4;
+}
 html, body{
     height: 100%;
 }
-
 body{
     display: flex;
     flex-direction: column;
@@ -19,7 +20,6 @@ body{
 footer{
     flex-shrink: 0;
 }
-
 .margin-5{
     margin-top: 5px;
     margin-bottom: 5px;
