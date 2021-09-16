@@ -1,0 +1,26 @@
+.color-pink{
+    background-color: #FFF3F7;
+}
+.color-gray{
+    background-color: #CECECE;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    flex: 1 0 auto;
+}
+footer{
+    flex-shrink: 0;
+}
+
+.margin-5{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
