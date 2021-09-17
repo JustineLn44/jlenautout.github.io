@@ -1,39 +1,48 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    flex: 1 0 auto;
+}
+
+footer{
+    flex-shrink: 0;
+}
+
 .main-color{
         background-color: #C5CFEB;
-
 }
+
+.second-color{
+    background-color: #8B9CD4;
+}
+
+.button-color{
+    background-color: #4C5A87;
+    color: #C5CFEB ;
+}
+
 .header-style{
 background-image: url(asset/background.jpg);
 color: #4C5A87 ;
 font-variant: small-caps;
 }
-.second-color{
-    background-color: #8B9CD4;
-}
-.button-color{
-    background-color: #4C5A87;
-    color: #C5CFEB ;
-}
-html, body{
-    height: 100%;
-}
-body{
-    display: flex;
-    flex-direction: column;
-}
-.content{
-    flex: 1 0 auto;
-}
-footer{
-    flex-shrink: 0;
-}
+
 .margin-5{
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
 p{
     text-align: justify;
 }
+
 aside{
     width: 20%;
     float: right;
@@ -43,20 +52,24 @@ aside{
     color: #4C5A87 ;
     border-radius: 5%;
 }
+
 .skills{
     height: 10%;
 }
+
 .title-portfolio{
     text-align: center;
 }
+
 h2{
     color: #4C5A87;
 }
+
 address{
     font-style: italic;
 }
 
-
+/* Responsive */
 
 @media (max-width:767px){
     .carousel-item img{
@@ -85,7 +98,6 @@ address{
         height: 300px;
         width: 100%;
     }
-
 }
 
 @media (min-width:992px) and (max-width:1199px){
@@ -101,7 +113,6 @@ address{
         height: 400px;
         width: 100%;
     }
-
 }
 @media (min-width:1200px){
     .carousel-item img{
@@ -114,8 +125,9 @@ address{
     .carousel .carousel-item{
         height: 550px;
     }
-
 }
+
+/* Animations */
 
 .anim-1 {
     position: relative;
