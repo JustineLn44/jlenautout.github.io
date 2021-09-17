@@ -101,3 +101,36 @@ address{
     }
 
 }
+
+.anim-1 {
+    position: relative;
+    animation-name: slide-1 ;
+    animation-duration: 2.5s;
+}
+
+@keyframes slide-1 {
+    0% {left: -500px; top: 0px; opacity: 0;}
+    100% {left: 0px; top: 0px; opacity: 1;}
+}
+
+.anim-2 {
+    position: relative;
+    animation-name: slide-2 ;
+    animation-duration: 2.5s;
+}
+
+@keyframes slide-2 {
+    0% {left: 500px; top: 0px; opacity: 0;}
+    100% {left: 0px; top: 0px; opacity: 1;}
+}
+
+.anim-3 {
+    position: relative;
+    animation-name: slide-3 ;
+    animation-duration: 2.5s;
+}
+
+@keyframes slide-3 {
+    0% {left: 0px; top: 500px; opacity: 0;}
+    100% {left: 0px; top: 0px; opacity: 1;}
+}
