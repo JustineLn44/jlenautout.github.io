@@ -13,7 +13,7 @@
 
 <body class="main-color">
     <div class="content">
-        <header class="main-color">
+        <header class="header-style">
             <div class="container">
                 <div class="row text-center">
                     <h1 class="col-12">Welcome to my digital resume</h1>
@@ -44,7 +44,10 @@
                                 <a class="nav-link" href="educ.html">Educations</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
+                                <button type="button" class="btn button-color" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                    Contact
+                                </button>
                             </li>
                         </ul>
                     </div>
@@ -61,20 +64,18 @@
                         <div class="card margin-5">
                             <div class="card-body ">
                                 <h5 class="card-title">Temp worker - Storekeeper</h5>
-                                <p class="card-text">
                                 <address>Selva / Vallet, France / June 2021 - August 2021</address>
                                 <ul>
                                     <li>Use of an X-ray machine to count the components.</li>
                                     <li>Realization of the preparations in order to gather the components
                                         necessary for an assembly according to the customer.</li>
                                 </ul>
-                                </p>
+
                             </div>
                         </div>
                         <div class="card margin-5">
                             <div class="card-body">
                                 <h5 class="card-title">Student job</h5>
-                                <p class="card-text">
                                 <address>HENNER / Nantes, France / July 2019</address>
                                 <ul>
                                     <li>Receiving and sorting mail (TPH, TPA, files).</li>
@@ -82,7 +83,7 @@
                                     <li>Reception and redirection of faxes to the corresponding management units
                                         corresponding management units.</li>
                                 </ul>
-                                </p>
+
                             </div>
                         </div>
                     </div>
@@ -95,6 +96,30 @@
         <address class="col-12 ">Le Nautout - Justine - 124 rue des Prés 44430 Le Loroux Bottereau - 06 95 60 97 77
         </address>
     </footer>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Contact</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                            <textarea class="form-control" rows="3" required></textarea>
+                        </div>
+                        <button type="button" class="btn button-color">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
         crossorigin="anonymous"></script>

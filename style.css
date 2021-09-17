@@ -1,11 +1,18 @@
 .main-color{
-    background-color: #C5CFEB;
+        background-color: #C5CFEB;
+
+}
+.header-style{
+background-image: url(asset/background.jpg);
+color: #4C5A87 ;
+font-variant: small-caps;
 }
 .second-color{
     background-color: #8B9CD4;
 }
 .button-color{
-    background-color: #A7B5D4;
+    background-color: #4C5A87;
+    color: #C5CFEB ;
 }
 html, body{
     height: 100%;
@@ -26,4 +33,71 @@ footer{
 }
 p{
     text-align: justify;
+}
+aside{
+    width: 20%;
+    float: right;
+    border: 1px solid #29627e;
+    box-shadow: 10px 5px 5px #29627e;
+    font-style: italic;
+    color: #4C5A87 ;
+    border-radius: 5%;
+}
+.skills{
+    height: 10%;
+}
+.title-portfolio{
+    text-align: center;
+}
+h2{
+    color: #4C5A87;
+}
+address{
+    font-style: italic;
+}
+
+
+
+@media (max-width:767px){
+    .carousel-item img{
+        position: absolute;
+        object-fit: cover;
+        top: 0;
+        left: 0;
+        min-height:225px;
+    }
+
+    .carousel .carousel-item{
+        height: 225px;
+        width: 100%;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px){
+    .carousel-item img{
+        position: absolute;
+        object-fit: cover;
+        top: 0;
+        left: 0;
+        min-height: 400px;
+    }
+
+    .carousel .carousel-item{
+        height: 400px;
+        width: 100%;
+    }
+
+}
+@media (min-width:1200px){
+    .carousel-item img{
+        position: absolute;
+        object-fit: cover;
+        top: 0;
+        left: 0;
+        min-height: 550px;  }
+
+    .carousel .carousel-item{
+        height: 550px;
+    }
+
 }
